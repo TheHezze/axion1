@@ -384,3 +384,20 @@ a:focus, a:hover, a:active {
   max-height: 360px !important;
   margin-top: 40px;
 }
+
+/* Container holding the image and the text */
+.centered{
+  position: absolute;
+  text-align: center;
+  color: white;  position: absolute;
+  top: 22%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.portfolio-item-caption{
+  border-radius: 100%
+}

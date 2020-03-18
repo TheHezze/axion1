@@ -412,7 +412,7 @@ a:focus, a:hover, a:active {
   position: absolute;
   text-align: center;
   color: white;  position: absolute;
-  top: 30%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: rgba(0, 0, 0, 0.6);

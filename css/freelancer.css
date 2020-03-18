@@ -198,7 +198,7 @@ header.masthead h2 {
 
 .portfolio {
   margin-bottom: -15px;
-  margin-top: -50px
+  margin-top: -80px
 }
 
 .portfolio .portfolio-item {
@@ -425,6 +425,7 @@ a:focus, a:hover, a:active {
   background-color: orange; /* Red */
   color: white;
   margin-bottom: 15px;
+  margin-top: -15px
 }
 
 /* The close button */

@@ -133,7 +133,7 @@ section h2 {
 
 #mainNav .navbar-toggler {
   font-size: 50%;
-  padding: 0.1rem;
+  padding: 0.5rem;
 }
 
 @media (min-width: 992px) {

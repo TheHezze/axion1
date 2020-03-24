@@ -1,6 +1,7 @@
 
 body {
   font-family: 'Lato';
+  margin-top: 45px;
 }
 
 h1,
@@ -257,7 +258,7 @@ header.masthead h2 {
   font-size: 2rem;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) { */
   .portfolio-modal .portfolio-modal-dialog {
     min-height: 100vh;
     padding: 5rem;
@@ -383,12 +384,12 @@ a:focus, a:hover, a:active {
 .carousel-inner{
   width:100%;
   max-height: 300px !important;
-  margin-top: 10px;
+  margin-top: auto;
 }
 .carousel-item{
   width:100%;
   max-height: 250px !important;
-  margin-top: 35px;
+  margin-top: auto;
 }
 
 /* Container holding the image and the text */
@@ -422,11 +423,11 @@ a:focus, a:hover, a:active {
 
 /* The alert message box */
 .alert {
-  padding: 20px;
+  padding: 45px;
   background-color: orange; /* Red */
   color: white;
-  margin-bottom: 15px;
-  margin-top: -15px
+  margin-bottom: auto;
+  margin-top: 20px;
 }
 
 /* The close button */

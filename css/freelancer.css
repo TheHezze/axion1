@@ -258,7 +258,7 @@ header.masthead h2 {
   font-size: 2rem;
 }
 
-/* @media (min-width: 768px) { */
+@media (min-width: 768px) {
   .portfolio-modal .portfolio-modal-dialog {
     min-height: 100vh;
     padding: 5rem;
@@ -445,4 +445,8 @@ a:focus, a:hover, a:active {
 /* When moving the mouse over the close button */
 .closebtn:hover {
   color: black;
+}
+
+.iframe {
+
 }

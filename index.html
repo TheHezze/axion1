@@ -58,30 +58,47 @@
     <p class="text-danger">Important Message From Axion Secured
     </p>To ensure the safety of our technicians and customers from the COVID-19 pandemic we will follow recommendations put forth by The Government of Ontario and temporarily suspend all non-emergency onsite technician services until: <p1 class="text-dark"> April 5 2020.</p1>
     We apologize for any inconvenience this may cause.
-    <br><br><p class="text-center">No other services will be affected</p1>
+    <br><br><p class="text-center text-dark">No other services will be affected</p1>
     <br>
-          <table class="table table-hover">
-            <thead>
-              <tr>
-                <th scope="col">Server Name</th>
-                <th scope="col">Status</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Online Security Services</td>
-                <td><p1 class="text-success">Active</td>
-              </tr>
-              <tr>
-                <td>Secured Website & File Hosting</td>
-                <td><p1 class="text-success">Active</td>
-              </tr>
-              <tr>
-                <td>Business Phone Routing & Vmail</td>
-                <td><p1 class="text-success">Active</td>
-              </tr>
-            </tbody>
-          </table>
+
+    <class="mb-4" id="accordion" role="tablist" aria-multiselectable="true">
+      <div class="card">
+        <div class="card-header" role="tab" id="headingOne">
+          <h5 class="mb-0 text-center">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">View Live System Status</a>
+          </h5>
+        </div>
+
+        <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+          <div class="card-body">
+
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th scope="col">Server Name</th>
+                  <th scope="col">Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Online Security Services</td>
+                  <td><p1 class="text-success">Active</td>
+                </tr>
+                <tr>
+                  <td>Secured Website & File Hosting</td>
+                  <td><p1 class="text-success">Active</td>
+                </tr>
+                <tr>
+                  <td>Business Phone Routing & Vmail</td>
+                  <td><p1 class="text-success">Active</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+
   </div>
 
 
@@ -373,7 +390,7 @@
                   <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Installation Only</a>
                 </div>
               </div>
-              <div class="col-12">
+              <div class="span">
                 <div class="tab-content" id="v-pills-tabContent">
                   <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
                       <iframe src="https://axionnvr.youcanbook.me/?noframe=true&skipHeaderFooter=true" id="ycbmiframeaxionnvr" style="width:100%;height:1000px;border:0px;background-color:transparent;" frameborder="0" allowtransparency="true">

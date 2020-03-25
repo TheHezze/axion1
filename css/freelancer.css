@@ -423,11 +423,10 @@ a:focus, a:hover, a:active {
 
 /* The alert message box */
 .alert {
-  padding: 45px;
+  padding: 30px;
   background-color: orange; /* Red */
   color: white;
   margin-bottom: auto;
-  margin-top: 0px;
 }
 
 /* The close button */

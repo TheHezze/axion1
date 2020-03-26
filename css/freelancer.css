@@ -452,3 +452,7 @@ a:focus, a:hover, a:active {
 .nounderline {
   text-decoration: none !important
 }
+
+.cognito {
+  text-align-last: left;
+}

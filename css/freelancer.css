@@ -455,4 +455,14 @@ a:focus, a:hover, a:active {
 
 .cognito {
   text-align-last: left;
+}
+
+  .centered3{
+    position: absolute;
+    text-align: center;
+    color: white;  position: absolute;
+    top: auto;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
   }
